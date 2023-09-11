@@ -1,4 +1,4 @@
-# HNGX Stage 2 Task User CRUD API Documentation 
+# HNGX Stage 2 Task User CRUD API
 
 ## Overview
 
@@ -6,16 +6,16 @@ This document provides information about the CRUD (Create, Read, Update, Delete)
 
 The API allows you to manage user data, including creating, reading, updating, and deleting user records.
 
-# Setting up Your API Locally
+## Setting up Your API Locally
 
 This guide will walk you through setting up your API locally. Please make sure you have Go installed on your machine and a MongoDB database ready with the connection URI (MONGOURI).
 
-## Prerequisites
+### Prerequisites
 
 - [Go](https://golang.org/dl/) installed on your local machine.
 - A MongoDB database and its connection URI (MONGOURI).
 
-## Steps
+### Steps
 
 1. **Clone the Repository**
 
@@ -29,7 +29,7 @@ This guide will walk you through setting up your API locally. Please make sure y
 2. **Create a .env File**
 
     Create a `.env` file in the root directory of your API project. Add the MONGOURI variable with your MongoDB connection URI:
-    
+
     ``` shell
         MONGOURI=mongodb://localhost:27017/your-database-name
     ```
@@ -37,6 +37,7 @@ This guide will walk you through setting up your API locally. Please make sure y
 3. **Run the API Locally**
 
     You can start your API locally by running the following command from the root directory of your project:
+
     ``` shell
     go run main.go
     ```
