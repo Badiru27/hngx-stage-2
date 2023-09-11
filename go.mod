@@ -1,6 +1,6 @@
 module github.com/Badiru27/hngx-stage-2
 
-go 1.21.1
+go 1.23
 
 require (
 	github.com/bytedance/sonic v1.10.0 // indirect
